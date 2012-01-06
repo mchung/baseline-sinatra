@@ -1,0 +1,1 @@
+web: bundle exec thin --rackup config.ru start -p $PORT

@@ -1,0 +1,63 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.6)
+    daemons (1.1.5)
+    em-http-request (1.0.0)
+      addressable (>= 2.2.3)
+      em-socksify
+      eventmachine (>= 1.0.0.beta.3)
+      http_parser.rb (>= 0.5.2)
+    em-resolv-replace (1.1.2)
+    em-socksify (0.1.0)
+      eventmachine
+    em-synchrony (1.0.0)
+      eventmachine (>= 1.0.0.beta.1)
+    eventmachine (1.0.0.beta.3)
+    foreman (0.31.0)
+      term-ansicolor (~> 1.0.5)
+      thor (>= 0.13.6)
+    heroku (2.17.0)
+      launchy (>= 0.3.2)
+      rest-client (~> 1.6.1)
+      rubyzip
+      term-ansicolor (~> 1.0.5)
+    http_parser.rb (0.5.3)
+    launchy (2.0.5)
+      addressable (~> 2.2.6)
+    mime-types (1.17.2)
+    rack (1.4.0)
+    rack-fiber_pool (0.9.2)
+    rack-protection (1.2.0)
+      rack
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubyzip (0.9.5)
+    sinatra (1.3.2)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    sinatra-synchrony (0.3.0)
+      em-http-request (= 1.0.0)
+      em-resolv-replace (>= 1.1.1)
+      em-synchrony (= 1.0.0)
+      eventmachine (= 1.0.0.beta.3)
+      rack-fiber_pool (= 0.9.2)
+      sinatra (>= 1.0)
+    term-ansicolor (1.0.7)
+    thin (1.3.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thor (0.14.6)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  foreman
+  heroku
+  sinatra
+  sinatra-synchrony
+  thin
