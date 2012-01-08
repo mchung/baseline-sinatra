@@ -1,0 +1,12 @@
+source :rubygems
+
+gem 'unicorn'
+gem 'sinatra'
+gem 'activerecord'
+gem 'sinatra-activerecord'
+gem 'pg'
+gem 'sqlite3'
+gem 'haml'
+
+gem 'heroku'
+gem 'foreman'
