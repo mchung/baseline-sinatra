@@ -6,9 +6,9 @@ Herein lies a few Sinatra web applications that are useful for building one off 
 
 The same for each application.
 
-  cd baseline-sinatra-on-thin
-  bundle
-  foreman start
+    cd baseline-sinatra-on-thin
+    bundle
+    foreman start
 
 ## Test
 
