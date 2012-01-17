@@ -1,12 +1,12 @@
+# Baseline Sinatra applications
 
-# Baseline Sinatra
-
-Unicorn
-Thin
-Thin w/ Synchrony
+Herein lies a few Sinatra web applications that are useful for building one off sites.  In addition, this repository includes a few different server configurations: unicorn, thin, and thin w/ synchrony.
 
 ## Usage
 
+The same for each application.
+
+  cd baseline-sinatra-on-thin
   bundle
   foreman start
 
