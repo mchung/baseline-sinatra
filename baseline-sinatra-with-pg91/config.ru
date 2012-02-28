@@ -5,11 +5,6 @@ require './lib/database'
 
 $stdout.sync = true
 
-class App < Sinatra::Base
-  get '/' do
-    haml :index
-  end
-end
-
+require './app'
 use ActiveRecord::QueryCache
-run App
+run Baseline::App
