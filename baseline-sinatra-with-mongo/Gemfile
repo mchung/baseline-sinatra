@@ -1,0 +1,12 @@
+source :rubygems
+
+gem 'thin'
+gem 'sinatra'
+gem 'mongo'
+gem 'bson_ext'
+
+group :development do
+  gem 'heroku'
+  gem 'foreman'
+  gem 'shotgun'
+end
